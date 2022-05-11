@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(203, 203, 203);
+
+}
+ul li{
+    list-style-type: none;
+}
+.cart_icon{
+    position: fixed;
+    right: 180px;
+    bottom: 100px;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+}
+.icon_add{
+    position: fixed;
+    right: 180px;
+    top: 5px;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    z-index: 1000000; 
+    background-color: blueviolet;
+    color: white;
+}
+.label{
+ position: absolute;
+ top: 80px;
+ right: 365px;
+}
+.icon{
+    background-color: green;
+    border-radius: 7px;
+    color: white;
+}
+.color_icon{
+    color: white;
+}
+.my_row{
+    display: flex;
+
+}
+.box{
+    width: 800px;
+}
+.col_4{
+    width: 300px;
+    border: 1px solid grey;
+    margin: 10px 25px;
+}
+.bnt_add{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 10px;
+  background-color: skyblue;
+}
+.Add_btn{
+    background-color: blueviolet;
+}
+
+.prices{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+.Add_btn{
+    position: absolute;
+    bottom: 10px;
+    right: 60px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+}
+.site-title{
+    /* margin-left: 10px; */
+}
+@media(max-width:430px){
+    .cart_icon{
+        position: fixed;
+        right: 15px;
+        bottom: 40px;
+        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+        z-index: 100;
+    }
+    .icon_add{
+        position: fixed;
+        right: 15px;
+        top: 58px;
+        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+        z-index: 100000; 
+        background-color: blueviolet;
+        color: white;
+        
+    }
+}
+@media(max-width:900px){
+    .filter{
+        position: fixed!important;
+        top: 110px!important;
+        right: 10px!important;
+        z-index: 10000!important;
+    }
+    .label{
+        position: fixed!important;
+        top: 110px!important;
+        right: 70px!important;
+        z-index: 10000!important;
+
+    }
+}
+.render_circle{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+}
+.fade {
+    margin-top: 90px;
+}
+.tolov_photo{
+    width: 60px;
+    height: 60px;
+}
+.tolov_photo1{
+    width: 100px;
+    margin-top: 16px;
+}
+.container01{
+    width: 70%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 35px;
+    position: relative;
+    margin-top: 100vh;
+}
+.card{
+    box-shadow: 0px 0px 7px 2px rgb(152, 151, 151);
+    width: 250px;
+    height: 280px;
+    clip-path: circle(80%);
+}
+.search{
+    margin-top: 70px;
+    position: relative;
+    right: 32px;
+}
+.input_search{
+    width: 300px;
+    height: 35px;
+    left: 20px;
+    z-index: 1000;
+    /* top: 50px; */
+}
+.filter{
+    position: absolute;
+    top: 80px;
+    right: 300px;
+}
+
+/* Menu========start====> */
+.Menu{
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: grey;
+    z-index: 1000000; */
+    display: none;
+}
+/* Menu ==========end===> */
+
+.elements{
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.Menu_phone{
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    position: fixed;
+    top: 700px;
+    z-index: 100000;
+}
+.imges{
+    width: 100%;
+}
