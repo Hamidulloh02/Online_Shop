@@ -1,3 +1,3 @@
 # Online_Shop
 This online shop only frontend
-https://instagramm-clone-version.netlify.app
+https://sport-online-shop.netlify.app/
